@@ -1,81 +1,151 @@
-# Visa Approval Analytics Dashboard
+# 📊 Visa Approval Analytics Dashboard
 
-## Project Overview
+<div align="center">
 
-This project analyzes visa application data to identify the factors influencing visa certification and denial outcomes.
+### 🚀 End-to-End Data Analytics Project
 
-The project combines:
+**Python | SQL Server | Machine Learning | Power BI**
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- SQL Analysis
-- Machine Learning
-- Power BI Dashboarding
+Analyzing visa application data to uncover approval trends, business insights, and predictive patterns.
 
-to generate actionable business insights.
+</div>
 
 ---
 
-## Dataset Information
+# 🎯 Project Objective
 
-- Records: 25,480
-- Features: 12
-- Target Variable: case_status
+The goal of this project is to analyze visa application data and identify the key factors that influence visa approval (Certified) and denial outcomes.
 
-Target Classes:
+This project demonstrates a complete Data Analytics workflow including:
 
-- Certified
-- Denied
-
----
-
-## Project Workflow
-
-### 1. Data Understanding
-
-- Dataset overview
-- Data types analysis
-- Missing value inspection
-
-### 2. Data Cleaning
-
-- Missing value verification
-- Duplicate checking
-- Data quality validation
-
-### 3. Exploratory Data Analysis
-
-Key analyses:
-
-- Visa status distribution
-- Education impact
-- Wage analysis
-- Experience analysis
-- Region analysis
+✅ Data Understanding  
+✅ Data Cleaning  
+✅ Exploratory Data Analysis (EDA)  
+✅ SQL Analysis  
+✅ Machine Learning  
+✅ Power BI Dashboard Development  
+✅ Business Insights & Recommendations
 
 ---
 
-## SQL Analysis
+# 📂 Dataset Overview
 
-Performed SQL queries for:
-
-- Application distribution
-- Certification rates
-- Region analysis
-- Wage analysis
-- Education analysis
+| Metric | Value |
+|----------|----------|
+| Total Records | 25,480 |
+| Total Features | 12 |
+| Target Variable | case_status |
+| Classes | Certified, Denied |
 
 ---
 
-## Machine Learning Models
+# 🛠️ Tech Stack
 
-Models trained:
+### Programming & Analysis
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
+- 🐍 Python
+- 📊 Pandas
+- 🔢 NumPy
+- 📈 Matplotlib
+- 🎨 Seaborn
 
-Evaluation Metrics:
+### Machine Learning
+
+- 🤖 Scikit-Learn
+- 🌲 Decision Tree
+- 🌳 Random Forest
+- 📉 Logistic Regression
+
+### Database
+
+- 🗄️ SQL Server
+- 📝 SQL Queries
+
+### Dashboarding
+
+- 📊 Power BI
+
+### Version Control
+
+- 🔗 Git
+- 🐙 GitHub
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Raw Data
+   ↓
+Data Understanding
+   ↓
+Data Cleaning
+   ↓
+Exploratory Data Analysis
+   ↓
+SQL Analysis
+   ↓
+Machine Learning
+   ↓
+Power BI Dashboard
+   ↓
+Business Insights
+```
+
+---
+
+# 📊 Exploratory Data Analysis (EDA)
+
+Key analyses performed:
+
+### 🎓 Education Analysis
+
+- Bachelor's degree holders submitted the highest number of applications.
+- Master's degree holders showed strong certification rates.
+
+### 💰 Wage Analysis
+
+- Certified applications generally had higher prevailing wages.
+
+### 👨‍💼 Experience Analysis
+
+- Applicants with prior work experience had higher approval rates.
+
+### 🌎 Region Analysis
+
+- Northeast and South regions generated the highest number of applications.
+
+---
+
+# 🗄️ SQL Analysis
+
+Performed SQL queries to analyze:
+
+✅ Visa Approval Distribution
+
+✅ Region-wise Applications
+
+✅ Education-wise Applications
+
+✅ Average Wage Analysis
+
+✅ Experience Analysis
+
+✅ Certification Rates
+
+---
+
+# 🤖 Machine Learning Models
+
+The following classification models were trained and evaluated:
+
+| Model | Purpose |
+|---------|---------|
+| Logistic Regression | Baseline Model |
+| Decision Tree | Rule-Based Classification |
+| Random Forest | Ensemble Learning |
+
+### Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -84,64 +154,139 @@ Evaluation Metrics:
 
 ---
 
-## Power BI Dashboard
+# 📈 Power BI Dashboard
 
-### Executive Summary
+## 📌 Executive Summary
 
 - Total Applications
 - Certified Applications
 - Denied Applications
 - Approval Rate
+- Continent Analysis
+- Region Analysis
 
-### Applicant Analysis
+---
 
-- Education Analysis
-- Experience Analysis
+## 📌 Applicant Analysis
+
+- Education vs Visa Status
+- Experience vs Visa Status
 - Job Training Analysis
 - Wage Analysis
 
-### Business Insights
+---
 
-- Region Analysis
+## 📌 Business Insights
+
 - Company Size Analysis
 - Full-Time Position Analysis
+- Regional Analysis
+- Strategic Recommendations
 
 ---
 
-## Key Findings
+# 📸 Dashboard Screenshots
 
-- Most visa applications are certified.
-- Higher wages are associated with certification.
-- Experienced applicants show higher certification rates.
-- Bachelor's and Master's degree holders dominate applications.
-- Some regions contribute significantly more applications.
+## Executive Summary
+
+![Executive Summary](executive_summary.png)
 
 ---
 
-## Business Recommendations
+## Applicant Analysis
 
-- Prioritize experienced candidates.
-- Offer competitive salaries.
-- Focus on highly qualified applicants.
-- Improve hiring strategies in high-performing regions.
+![Applicant Analysis](applicant_analysis.png)
 
 ---
 
-## Tools & Technologies
+## Business Insights
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- SQL Server
-- Power BI
+![Business Insights](business_insights.png)
 
 ---
 
-## Author
+# 🔍 Key Findings
 
-Prathamesh Shriwas
+### 📌 Approval Trends
 
-Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
+- Most visa applications were Certified.
+- Certified applications significantly outnumbered denied applications.
+
+### 📌 Salary Impact
+
+- Higher prevailing wages were associated with higher certification rates.
+
+### 📌 Education Impact
+
+- Bachelor's and Master's degree holders dominated visa applications.
+
+### 📌 Experience Impact
+
+- Experienced applicants showed stronger approval rates.
+
+### 📌 Regional Impact
+
+- Northeast and South regions generated the highest application volume.
+
+---
+
+# 💡 Business Recommendations
+
+✅ Prioritize experienced candidates
+
+✅ Offer competitive salary packages
+
+✅ Focus on highly qualified applicants
+
+✅ Improve hiring strategies in high-performing regions
+
+✅ Strengthen workforce planning based on approval trends
+
+---
+
+# 📁 Project Structure
+
+```text
+Visa-Approval-Analytics/
+│
+├── notebooks/
+│   ├── 01_Data_Understanding.ipynb
+│   ├── 02_Data_Cleaning.ipynb
+│   ├── 03_EDA.ipynb
+│   └── 04_Prediction_Model.ipynb
+│
+├── sql/
+│   └── visa_analysis.sql
+│
+├── dashboard/
+│   └── Visa_Approval_Dashboard.pbix
+│
+├── screenshots/
+│   ├── executive_summary.png
+│   ├── applicant_analysis.png
+│   └── business_insights.png
+│
+├── reports/
+│   └── business_insights.md
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+# 👨‍💻 Author
+
+## Prathamesh Shriwas
+
+📊 Aspiring Data Analyst
+
+💻 Python | SQL | Power BI | Machine Learning
+
+🚀 Passionate about transforming data into actionable insights
+
+---
+
+# ⭐ If you found this project useful
+
+Please consider giving it a ⭐ on GitHub!
